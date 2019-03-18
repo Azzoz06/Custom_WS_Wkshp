@@ -8,7 +8,7 @@
 ---
 
 ## Labs
-Les labs présents dans ce workshop sont issus du workshop de prise en main de Watson Studio dont l'objectif est de dresser un tour quasi exhaustif des fonctionnalités de la plateforme.
+Les labs présents dans ce workshop sont issus du workshop de prise en main de Watson Studio dont l'objectif est de dresser un tour non exhaustif des fonctionnalités de la plateforme en une journée.
 
 1. **Lab 1 - Getting Started:** in this first Lab, we will start getting to grips with IBM Watson Studio projects, services, data assets, and run our first Jupyter Notebook.
 [Lab Instructions here](Lab1-GettingStarted/Lab1-GettingStarted.md)
