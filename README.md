@@ -2,8 +2,9 @@
 **Duration:** 4 hours
 
 ## Agenda
-+ Presentation
-+ Labs  
++ Présentation
++ Labs
++ Discussions
 
 ---
 
@@ -22,7 +23,6 @@ Les labs présents dans ce workshop sont issus du workshop de prise en main de W
 [Lab Instructions here](Lab5-WatsonML/Lab5-WatsonML_Churn.md)
 6. **Lab 6 - Continuous Learning:** provide feedback to a trained model and trigger automatic retraining
 [Lab Instructions here](Lab7-WMLContinuousLearning/Lab7-WMLContinuousLearning.md)
-
 
 ---
 
@@ -65,7 +65,12 @@ _Questions issues du mail de Laurent_
     + GPU-powered Notebook comes with environments where popular deep learning frameworks are pre-installed. All you need to do is to pick a type of GPU, select the framework and the notebook will be ready for you.
     ![](assets/markdown-img-paste-20190318234102919.png)
 + flexibilité de personnalisation des environnements
-    + Possibilité de
+    + Possibilité de créer/personnaliser les environnements pour:
+      1. Notebooks
+      2. Model builder
+      3. Flow editor
+    + How to & Limitations [ici](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/create-customize-env-definition.html?audience=wdp&context=analytics)
+
 + entrainements longs/interactivité de l’entrainement
 + versioning et partage du code
     + Publication dans Git
@@ -73,11 +78,21 @@ _Questions issues du mail de Laurent_
 ### Gestion du cycle de vie complet des modèles
 + tests répétés
 + déploiement sous forme de service
+  + Déployé sur **IBM Watson Machine Learning**
+    + pour *Batch, Streaming et Web Service* scoring
+    + Skeleton de code d'intégration (cURL, JavaScript, Java, Scala, Python)
+    + Framework supportés sur **IBM Watson Machine Learning** [ici](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/pm_service_supported_frameworks.html?audience=wdp&context=analytics)
+    + Deploiement de R via PMML *fournir un exemple*
 + monitoring / perf des modèles déployés
+  + Dans l'interface de déploiement. Monitoring des metrics de performance, definition de seuil
+  + Nécessite une base **DB2 Warehouse on Cloud** ou **PostGreSQL on Cloud**
+  + How to [ici](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/ml-continuous-learning.html?audience=wdp&context=analytics)
 
 ### Intégration avec les services Watson
 + NLP / images
-+ Open Scale
+  + Watson Studio est l'outil d'entrainement pour **Watson Natural Language Classifier** et pour **Watson Visual Recognition**.
++ AI Open Scale
+  + *A compléter*
 
 ### Intégration avec la stack Hortonworks
 
