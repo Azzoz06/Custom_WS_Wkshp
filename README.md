@@ -2,7 +2,7 @@
 **Duration:** 4 hours
 
 ## Présentation
-[Watson Studio Architecture Design and Innovation](6974 - Watson Studio Architecture Design and Innovation.pdf)
+[Watson Studio Architecture Design and Innovation](6974%20-%20Watson%20Studio%20Architecture%20Design%20and%20Innovation.pdf)
 
 ## Agenda
 + Présentation
