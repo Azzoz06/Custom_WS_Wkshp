@@ -1,6 +1,9 @@
 # Watson Studio Custom Workshop
 **Duration:** 4 hours
 
+## Présentation
+[Watson Studio Architecture Design and Innovation](6974 - Watson Studio Architecture Design and Innovation.pdf)
+
 ## Agenda
 + Présentation
 + Labs
@@ -64,6 +67,9 @@ _Questions issues du mail de Laurent_
     + [Article Medium](https://medium.com/ibm-watson/gpu-powered-notebook-is-coming-to-watson-studio-56876f60c056)
     + GPU-powered Notebook comes with environments where popular deep learning frameworks are pre-installed. All you need to do is to pick a type of GPU, select the framework and the notebook will be ready for you.
     ![](assets/markdown-img-paste-20190318234102919.png)
++ Notebook: acceder aux fichiers du Projet (dans le COS)
+    + Il n'y a pas dans la UI des Notebooks R l'equivalent pour loader directement
+
 + flexibilité de personnalisation des environnements
     + Possibilité de créer/personnaliser les environnements pour:
       1. Notebooks
